@@ -30,8 +30,9 @@ public class App
 {
     public static void main( String[] args ) throws IOException, ParseException
     {
-    	String directoryIndici="./DirectoryIndici";
-    	Indexer indexer=new Indexer(directoryIndici);
+    	String directoryIndici="./directory_Indici";
+    	String directoryDocumenti="./canzoni_inventate";
+    	Indexer indexer=new Indexer(directoryIndici,directoryDocumenti);
     	indexer.index();
     	
         Path path = Paths.get(directoryIndici);
@@ -43,14 +44,24 @@ public class App
         
         // --- QUERY UTENTE ------ 
         Scanner scanner = new Scanner(System.in);
-                
+
         System.out.print("Fai la tua query (con \"titolo\" fai una ricerca nel titolo, con \"contenuto\" nel corpo del file): ");
-        String input = scanner.nextLine().trim(); // Legge la riga e rimuove spazi iniziali/finali
+        System.out.print("(scrivi \"0\" per usicre)	: ");
+        String input ="";
+        while(true) {
+        	input= scanner.nextLine().trim(); // Legge la riga e rimuove spazi iniziali/finali
+        
                 
         if (input.isEmpty()) {
         	System.out.println("La stringa è vuota.");
             scanner.close();
             return;
+        }
+        
+        if(input.equals("0")) {
+        	System.out.println("Chiudo");
+        	scanner.close();
+        	return;
         }
                 
                 // Separa in 2 parti la query utente
@@ -76,7 +87,6 @@ public class App
         
         
                 
-        scanner.close();
         
 //finito di leggere la query dell'utente e interpretarla
         
@@ -88,15 +98,30 @@ public class App
             String senzaVirgolette = queryTxt.substring(1, queryTxt.length() - 1);
             
             //FAI PHRASE QUERY
-            PhraseQuery phQuery = new PhraseQuery(0, comando, queryTxt);
-
+            
+            //String queryPh="\""+queryTxt+"\"";
+            QueryParser parser=new QueryParser(comando, new StandardAnalyzer());
+            //System.out.println(parser.parse(queryPh));
+            Query phraseQuery = parser.parse("\"" + senzaVirgolette + "\"");
+            
+            //PhraseQuery phraseQuery = new PhraseQuery(0,comando, parser.parse(senzaVirgolette));
+            System.out.println(phraseQuery);
+            
+            
+            
             
             //cerca
-            TopDocs hits = searcher.search(phQuery, 10);
-            ScoreDoc scoreDoc = hits.scoreDocs[0];
+            TopDocs hits = searcher.search(phraseQuery, 3);
             StoredFields storedFields = searcher.storedFields();
-            Document doc = storedFields.document(scoreDoc.doc);
-            System.out.println(doc.get(comando));
+            if(hits.scoreDocs.length==0) {
+            	System.out.println("Query senza risultati");
+            	return;
+            }
+            for(ScoreDoc sd:hits.scoreDocs) {
+            	// DA FARE
+                Document doc = storedFields.document(sd.doc);
+                System.out.println(doc.get("titolo"));
+            }
             
             
         }else {
@@ -106,19 +131,20 @@ public class App
             Query query = queryParser.parse(queryTxt);
             System.out.println(query);
 
-            TopDocs hits = searcher.search(query, 10);
-            ScoreDoc scoreDoc = hits.scoreDocs[0];
+            TopDocs hits = searcher.search(query, 3);
+            //ScoreDoc scoreDoc = hits.scoreDocs[0];
             StoredFields storedFields = searcher.storedFields();
-            Document doc = storedFields.document(scoreDoc.doc);
-            System.out.println(doc.get(comando));
+            for(ScoreDoc sd:hits.scoreDocs) {
+            	// DA FARE
+                Document doc = storedFields.document(sd.doc);
+                System.out.println(doc.get("titolo"));
+            }
             
+        	}
         }
-        
+        //scanner.close();
         
     }
 }
 
 
-
-// GESTIRE LE ECCEZIONI IN CASO IN CUI LA RICERCA NON DIA RISULTATI
-//	CONTROLLARE PERCHè LA PHRASE NON FUNIONA

@@ -18,9 +18,11 @@ import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.codecs.simpletext.SimpleTextCodec;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
+import org.apache.lucene.document.StringField;
 import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.index.Term;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
@@ -29,16 +31,18 @@ import org.apache.lucene.store.FSDirectory;
 
 
 public class Indexer {
-	private Path path;
+	private Path pathIndici;
+	private String directoryDocumenti;
 	
-	public Indexer(String s){
-		this.path = Paths.get(s);
+	public Indexer(String s, String s2){
+		this.pathIndici = Paths.get(s);
+		this.directoryDocumenti = s2;
 	}
 	
 	
 	
 	public void index() throws IOException {
-    Directory directory = FSDirectory.open(this.path);
+    Directory directory = FSDirectory.open(this.pathIndici);
     
     
     
@@ -65,16 +69,24 @@ public class Indexer {
     IndexWriter writer = new IndexWriter(directory, config);
     
    //Indicizzazione files
-    File files=new File("./DirectoryTXT");
+    File files=new File(directoryDocumenti);
     List<File> listaFile=new ArrayList<>(Arrays.asList(files.listFiles()));
     for(File f:listaFile) {
     	if(f.isFile()) {
     		Document d=new Document();
 
     		d.add(new TextField("titolo", f.getName(), Field.Store.YES));
-    		d.add(new TextField("contenuto", Files.readString(Path.of(f.getAbsolutePath())), Field.Store.YES));
+    		//System.out.println("Ho indicizzato "+f.getName());
+    		d.add(new TextField("contenuto", Files.readString(Path.of(f.getAbsolutePath())), Field.Store.NO));
+
     		
-    		writer.addDocument(d);
+    		String id = f.getAbsolutePath();
+            d.add(new StringField("id", id, Field.Store.NO));
+            
+            
+            writer.updateDocument(new Term("id", f.getAbsolutePath()), d);
+             
+    		//writer.addDocument(d);
     		writer.commit();
     	}
     }
