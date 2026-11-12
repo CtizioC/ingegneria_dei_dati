@@ -1,0 +1,487 @@
+cfs entry for: _d0.fld
+doc 0
+  field 0
+    name titolo
+    type string
+    value Caffè alle cinque testo.txt
+END
+checksum 00000000002538571522
+cfs entry for: _d0.inf
+number of fields 3
+  name titolo
+  number 0
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+  name contenuto
+  number 1
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+  name id
+  number 2
+  index options DOCS
+  term vectors false
+  payloads false
+  norms false
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+checksum 00000000000833685951
+cfs entry for: _d0.len
+field titolo
+  type NUMERIC
+  minalue 4
+  maxvalue 4
+  doccount 1
+  maxvaluecount 1
+  origin 4
+  pattern 0
+0
+T
+  skipdata
+    interval
+      minDocID 0
+      maxDocID 0
+      minValue 4
+      maxValue 4
+      docCount 1
+  skipend
+field contenuto
+  type NUMERIC
+  minalue 61
+  maxvalue 61
+  doccount 1
+  maxvaluecount 1
+  origin 61
+  pattern 0
+0
+T
+  skipdata
+    interval
+      minDocID 0
+      maxDocID 0
+      minValue 61
+      maxValue 61
+      docCount 1
+  skipend
+END
+checksum 00000000000737848819
+cfs entry for: _d0.pst
+field contenuto
+  term 1
+    doc 0
+      freq 1
+      pos 4
+  term 2
+    doc 0
+      freq 1
+      pos 67
+  term alle
+    doc 0
+      freq 6
+      pos 1
+      pos 36
+      pos 39
+      pos 99
+      pos 102
+      pos 131
+  term alza
+    doc 0
+      freq 1
+      pos 70
+  term ancora
+    doc 0
+      freq 3
+      pos 52
+      pos 85
+      pos 115
+  term andrà
+    doc 0
+      freq 1
+      pos 94
+  term aspettare
+    doc 0
+      freq 2
+      pos 56
+      pos 119
+  term bello
+    doc 0
+      freq 1
+      pos 33
+  term bene
+    doc 0
+      freq 1
+      pos 96
+  term brontola
+    doc 0
+      freq 1
+      pos 14
+  term caffè
+    doc 0
+      freq 6
+      pos 0
+      pos 35
+      pos 38
+      pos 98
+      pos 101
+      pos 130
+  term che
+    doc 0
+      freq 4
+      pos 28
+      pos 46
+      pos 93
+      pos 109
+  term chiama
+    doc 0
+      freq 1
+      pos 77
+  term ci
+    doc 0
+      freq 1
+      pos 76
+  term cinque
+    doc 0
+      freq 6
+      pos 2
+      pos 37
+      pos 40
+      pos 100
+      pos 103
+      pos 132
+  term città
+    doc 0
+      freq 1
+      pos 10
+  term con
+    doc 0
+      freq 1
+      pos 82
+  term del
+    doc 0
+      freq 1
+      pos 74
+  term di
+    doc 0
+      freq 4
+      pos 44
+      pos 48
+      pos 107
+      pos 111
+  term dirti
+    doc 0
+      freq 1
+      pos 27
+  term dorme
+    doc 0
+      freq 1
+      pos 11
+  term due
+    doc 0
+      freq 2
+      pos 65
+      pos 128
+  term e
+    doc 0
+      freq 8
+      pos 8
+      pos 23
+      pos 41
+      pos 61
+      pos 89
+      pos 104
+      pos 124
+      pos 133
+  term entra
+    doc 0
+      freq 2
+      pos 47
+      pos 110
+  term finale
+    doc 0
+      freq 1
+      pos 129
+  term forma
+    doc 0
+      freq 1
+      pos 25
+  term fornello
+    doc 0
+      freq 1
+      pos 16
+  term giorno
+    doc 0
+      freq 1
+      pos 30
+  term gli
+    doc 0
+      freq 1
+      pos 83
+  term ho
+    doc 0
+      freq 3
+      pos 17
+      pos 57
+      pos 120
+  term il
+    doc 0
+      freq 5
+      pos 20
+      pos 29
+      pos 53
+      pos 68
+      pos 116
+  term in
+    doc 0
+      freq 3
+      pos 18
+      pos 59
+      pos 122
+  term io
+    doc 0
+      freq 1
+      pos 90
+  term l'odore
+    doc 0
+      freq 1
+      pos 73
+  term la
+    doc 0
+      freq 3
+      pos 9
+      pos 12
+      pos 71
+  term luce
+    doc 0
+      freq 2
+      pos 45
+      pos 108
+  term mi
+    doc 0
+      freq 1
+      pos 5
+  term moka
+    doc 0
+      freq 1
+      pos 13
+  term mondo
+    doc 0
+      freq 2
+      pos 54
+      pos 117
+  term nessuna
+    doc 0
+      freq 1
+      pos 24
+  term nome
+    doc 0
+      freq 2
+      pos 22
+      pos 79
+  term occhi
+    doc 0
+      freq 1
+      pos 84
+  term pane
+    doc 0
+      freq 1
+      pos 75
+  term panettiere
+    doc 0
+      freq 1
+      pos 69
+  term per
+    doc 0
+      freq 4
+      pos 26
+      pos 64
+      pos 78
+      pos 127
+  term più
+    doc 0
+      freq 1
+      pos 32
+  term po
+    doc 0
+      freq 3
+      pos 43
+      pos 87
+      pos 106
+  term presto
+    doc 0
+      freq 1
+      pos 7
+  term prometto
+    doc 0
+      freq 1
+      pos 92
+  term può
+    doc 0
+      freq 2
+      pos 55
+      pos 118
+  term resti
+    doc 0
+      freq 2
+      pos 51
+      pos 114
+  term ridi
+    doc 0
+      freq 1
+      pos 81
+  term ritornello
+    doc 0
+      freq 2
+      pos 34
+      pos 97
+  term saracinesca
+    doc 0
+      freq 1
+      pos 72
+  term sbieco
+    doc 0
+      freq 2
+      pos 49
+      pos 112
+  term se
+    doc 0
+      freq 2
+      pos 50
+      pos 113
+  term sogno
+    doc 0
+      freq 2
+      pos 63
+      pos 126
+  term stanca
+    doc 0
+      freq 1
+      pos 88
+  term strofa
+    doc 0
+      freq 2
+      pos 3
+      pos 66
+  term sul
+    doc 0
+      freq 1
+      pos 15
+  term sveglio
+    doc 0
+      freq 1
+      pos 6
+  term tasca
+    doc 0
+      freq 2
+      pos 60
+      pos 123
+  term testa
+    doc 0
+      freq 1
+      pos 19
+  term ti
+    doc 0
+      freq 1
+      pos 91
+  term tu
+    doc 0
+      freq 2
+      pos 80
+      pos 134
+  term tuo
+    doc 0
+      freq 1
+      pos 21
+  term tutto
+    doc 0
+      freq 1
+      pos 95
+  term un
+    doc 0
+      freq 5
+      pos 42
+      pos 62
+      pos 86
+      pos 105
+      pos 125
+  term zucchero
+    doc 0
+      freq 2
+      pos 58
+      pos 121
+  term è
+    doc 0
+      freq 1
+      pos 31
+field id
+  term C:\\Users\\March\\Desktop\\Ingegneria_dei_dati\\hw3\\.\\canzoni_inventate\\Caffè alle cinque testo.txt
+    doc 0
+field titolo
+  term alle
+    doc 0
+      freq 1
+      pos 1
+  term caffè
+    doc 0
+      freq 1
+      pos 0
+  term cinque
+    doc 0
+      freq 1
+      pos 2
+  term testo.txt
+    doc 0
+      freq 1
+      pos 3
+END
+checksum 00000000000376514101
+table of contents, size: 4
+  filename: _d0.fld
+    start: 23
+    end: 144
+  filename: _d0.inf
+    start: 167
+    end: 1413
+  filename: _d0.len
+    start: 1436
+    end: 1938
+  filename: _d0.pst
+    start: 1961
+    end: 6621
+table of contents begins at offset: 0000000000000006621

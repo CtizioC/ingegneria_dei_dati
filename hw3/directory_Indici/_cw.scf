@@ -1,0 +1,435 @@
+cfs entry for: _cw.fld
+doc 0
+  field 0
+    name titolo
+    type string
+    value Via dei Tigli testo.txt
+END
+checksum 00000000000171736526
+cfs entry for: _cw.inf
+number of fields 3
+  name titolo
+  number 0
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+  name contenuto
+  number 1
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+  name id
+  number 2
+  index options DOCS
+  term vectors false
+  payloads false
+  norms false
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+checksum 00000000000833685951
+cfs entry for: _cw.len
+field titolo
+  type NUMERIC
+  minalue 4
+  maxvalue 4
+  doccount 1
+  maxvaluecount 1
+  origin 4
+  pattern 0
+0
+T
+  skipdata
+    interval
+      minDocID 0
+      maxDocID 0
+      minValue 4
+      maxValue 4
+      docCount 1
+  skipend
+field contenuto
+  type NUMERIC
+  minalue 59
+  maxvalue 59
+  doccount 1
+  maxvaluecount 1
+  origin 59
+  pattern 0
+0
+T
+  skipdata
+    interval
+      minDocID 0
+      maxDocID 0
+      minValue 59
+      maxValue 59
+      docCount 1
+  skipend
+END
+checksum 00000000004025973034
+cfs entry for: _cw.pst
+field contenuto
+  term 1
+    doc 0
+      freq 1
+      pos 4
+  term 2
+    doc 0
+      freq 1
+      pos 53
+  term a
+    doc 0
+      freq 1
+      pos 18
+  term abitavamo
+    doc 0
+      freq 1
+      pos 5
+  term al
+    doc 0
+      freq 1
+      pos 10
+  term ancora
+    doc 0
+      freq 2
+      pos 40
+      pos 93
+  term angolo
+    doc 0
+      freq 2
+      pos 38
+      pos 91
+  term caffè
+    doc 0
+      freq 1
+      pos 61
+  term camion
+    doc 0
+      freq 1
+      pos 56
+  term cantavi
+    doc 0
+      freq 1
+      pos 22
+  term carte
+    doc 0
+      freq 1
+      pos 19
+  term chiavi
+    doc 0
+      freq 1
+      pos 67
+  term chiuso
+    doc 0
+      freq 1
+      pos 74
+  term consegnate
+    doc 0
+      freq 1
+      pos 68
+  term cuore
+    doc 0
+      freq 1
+      pos 73
+  term davanzali
+    doc 0
+      freq 2
+      pos 36
+      pos 89
+  term dei
+    doc 0
+      freq 8
+      pos 1
+      pos 8
+      pos 27
+      pos 30
+      pos 57
+      pos 80
+      pos 83
+      pos 107
+  term di
+    doc 0
+      freq 2
+      pos 33
+      pos 86
+  term e
+    doc 0
+      freq 5
+      pos 20
+      pos 44
+      pos 59
+      pos 71
+      pos 97
+  term fa
+    doc 0
+      freq 2
+      pos 49
+      pos 102
+  term finale
+    doc 0
+      freq 1
+      pos 105
+  term giocavano
+    doc 0
+      freq 1
+      pos 17
+  term giorno
+    doc 0
+      freq 1
+      pos 110
+  term giugno
+    doc 0
+      freq 2
+      pos 34
+      pos 87
+  term ha
+    doc 0
+      freq 2
+      pos 39
+      pos 92
+  term i
+    doc 0
+      freq 1
+      pos 15
+  term il
+    doc 0
+      freq 4
+      pos 45
+      pos 55
+      pos 72
+      pos 98
+  term in
+    doc 0
+      freq 4
+      pos 6
+      pos 62
+      pos 69
+      pos 75
+  term le
+    doc 0
+      freq 1
+      pos 66
+  term mai
+    doc 0
+      freq 2
+      pos 50
+      pos 103
+  term male
+    doc 0
+      freq 2
+      pos 51
+      pos 104
+  term non
+    doc 0
+      freq 2
+      pos 48
+      pos 101
+  term nostro
+    doc 0
+      freq 2
+      pos 42
+      pos 95
+  term nove
+    doc 0
+      freq 1
+      pos 12
+  term numero
+    doc 0
+      freq 1
+      pos 11
+  term ogni
+    doc 0
+      freq 2
+      pos 37
+      pos 90
+  term piano
+    doc 0
+      freq 3
+      pos 14
+      pos 23
+      pos 24
+  term piedi
+    doc 0
+      freq 1
+      pos 63
+  term poi
+    doc 0
+      freq 1
+      pos 54
+  term portone
+    doc 0
+      freq 1
+      pos 65
+  term profumo
+    doc 0
+      freq 2
+      pos 32
+      pos 85
+  term qui
+    doc 0
+      freq 2
+      pos 47
+      pos 100
+  term ricordo
+    doc 0
+      freq 2
+      pos 43
+      pos 96
+  term ritornello
+    doc 0
+      freq 2
+      pos 25
+      pos 78
+  term rivedrò
+    doc 0
+      freq 1
+      pos 112
+  term scatolone
+    doc 0
+      freq 1
+      pos 77
+  term silenzio
+    doc 0
+      freq 1
+      pos 70
+  term strofa
+    doc 0
+      freq 2
+      pos 3
+      pos 52
+  term sui
+    doc 0
+      freq 2
+      pos 35
+      pos 88
+  term sul
+    doc 0
+      freq 1
+      pos 64
+  term tempo
+    doc 0
+      freq 2
+      pos 46
+      pos 99
+  term terzo
+    doc 0
+      freq 1
+      pos 13
+  term ti
+    doc 0
+      freq 1
+      pos 111
+  term tigli
+    doc 0
+      freq 7
+      pos 2
+      pos 9
+      pos 28
+      pos 31
+      pos 81
+      pos 84
+      pos 108
+  term traslochi
+    doc 0
+      freq 1
+      pos 58
+  term tu
+    doc 0
+      freq 1
+      pos 21
+  term un
+    doc 0
+      freq 4
+      pos 41
+      pos 60
+      pos 94
+      pos 109
+  term uno
+    doc 0
+      freq 1
+      pos 76
+  term via
+    doc 0
+      freq 7
+      pos 0
+      pos 7
+      pos 26
+      pos 29
+      pos 79
+      pos 82
+      pos 106
+  term vicini
+    doc 0
+      freq 1
+      pos 16
+field id
+  term C:\\Users\\March\\Desktop\\Ingegneria_dei_dati\\hw3\\.\\canzoni_inventate\\Via dei Tigli testo.txt
+    doc 0
+field titolo
+  term dei
+    doc 0
+      freq 1
+      pos 1
+  term testo.txt
+    doc 0
+      freq 1
+      pos 3
+  term tigli
+    doc 0
+      freq 1
+      pos 2
+  term via
+    doc 0
+      freq 1
+      pos 0
+END
+checksum 00000000001090348331
+table of contents, size: 4
+  filename: _cw.fld
+    start: 23
+    end: 139
+  filename: _cw.inf
+    start: 162
+    end: 1408
+  filename: _cw.len
+    start: 1431
+    end: 1933
+  filename: _cw.pst
+    start: 1956
+    end: 5954
+table of contents begins at offset: 0000000000000005954

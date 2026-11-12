@@ -1,0 +1,491 @@
+cfs entry for: _ct.fld
+doc 0
+  field 0
+    name titolo
+    type string
+    value Telefonata alle tre testo.txt
+END
+checksum 00000000004108953596
+cfs entry for: _ct.inf
+number of fields 3
+  name titolo
+  number 0
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+  name contenuto
+  number 1
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+  name id
+  number 2
+  index options DOCS
+  term vectors false
+  payloads false
+  norms false
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+checksum 00000000000833685951
+cfs entry for: _ct.len
+field titolo
+  type NUMERIC
+  minalue 4
+  maxvalue 4
+  doccount 1
+  maxvaluecount 1
+  origin 4
+  pattern 0
+0
+T
+  skipdata
+    interval
+      minDocID 0
+      maxDocID 0
+      minValue 4
+      maxValue 4
+      docCount 1
+  skipend
+field contenuto
+  type NUMERIC
+  minalue 62
+  maxvalue 62
+  doccount 1
+  maxvaluecount 1
+  origin 62
+  pattern 0
+0
+T
+  skipdata
+    interval
+      minDocID 0
+      maxDocID 0
+      minValue 62
+      maxValue 62
+      docCount 1
+  skipend
+END
+checksum 00000000001061877015
+cfs entry for: _ct.pst
+field contenuto
+  term 1
+    doc 0
+      freq 1
+      pos 4
+  term 2
+    doc 0
+      freq 1
+      pos 70
+  term alle
+    doc 0
+      freq 7
+      pos 1
+      pos 8
+      pos 38
+      pos 41
+      pos 101
+      pos 104
+      pos 134
+  term ascolto
+    doc 0
+      freq 2
+      pos 53
+      pos 116
+  term aspetta
+    doc 0
+      freq 1
+      pos 29
+  term buio
+    doc 0
+      freq 2
+      pos 62
+      pos 125
+  term che
+    doc 0
+      freq 2
+      pos 26
+      pos 96
+  term chiamo
+    doc 0
+      freq 2
+      pos 51
+      pos 114
+  term ci
+    doc 0
+      freq 3
+      pos 28
+      pos 58
+      pos 121
+  term come
+    doc 0
+      freq 1
+      pos 82
+  term cornetta
+    doc 0
+      freq 1
+      pos 81
+  term cosa
+    doc 0
+      freq 2
+      pos 22
+      pos 34
+  term di
+    doc 0
+      freq 1
+      pos 10
+  term dico
+    doc 0
+      freq 2
+      pos 57
+      pos 120
+  term dirti
+    doc 0
+      freq 1
+      pos 23
+  term display
+    doc 0
+      freq 1
+      pos 13
+  term e
+    doc 0
+      freq 5
+      pos 17
+      pos 60
+      pos 75
+      pos 88
+      pos 123
+  term fa
+    doc 0
+      freq 3
+      pos 64
+      pos 86
+      pos 127
+  term finale
+    doc 0
+      freq 1
+      pos 132
+  term i
+    doc 0
+      freq 2
+      pos 47
+      pos 110
+  term il
+    doc 0
+      freq 5
+      pos 5
+      pos 14
+      pos 61
+      pos 76
+      pos 124
+  term in
+    doc 0
+      freq 3
+      pos 54
+      pos 117
+      pos 137
+  term io
+    doc 0
+      freq 2
+      pos 18
+      pos 78
+  term la
+    doc 0
+      freq 4
+      pos 43
+      pos 73
+      pos 80
+      pos 106
+  term linea
+    doc 0
+      freq 1
+      pos 138
+  term ma
+    doc 0
+      freq 1
+      pos 94
+  term mattina
+    doc 0
+      freq 1
+      pos 87
+  term mi
+    doc 0
+      freq 1
+      pos 71
+  term nome
+    doc 0
+      freq 1
+      pos 16
+  term non
+    doc 0
+      freq 4
+      pos 20
+      pos 24
+      pos 31
+      pos 89
+  term notte
+    doc 0
+      freq 1
+      pos 11
+  term passato
+    doc 0
+      freq 1
+      pos 93
+  term paura
+    doc 0
+      freq 1
+      pos 74
+  term piano
+    doc 0
+      freq 2
+      pos 68
+      pos 131
+  term più
+    doc 0
+      freq 3
+      pos 33
+      pos 67
+      pos 130
+  term poco
+    doc 0
+      freq 2
+      pos 66
+      pos 129
+  term presenti
+    doc 0
+      freq 1
+      pos 98
+  term quanto
+    doc 0
+      freq 1
+      pos 91
+  term racconti
+    doc 0
+      freq 1
+      pos 72
+  term resta
+    doc 0
+      freq 1
+      pos 136
+  term rimpianto
+    doc 0
+      freq 1
+      pos 77
+  term ritornello
+    doc 0
+      freq 2
+      pos 36
+      pos 99
+  term roca
+    doc 0
+      freq 2
+      pos 46
+      pos 109
+  term salvagente
+    doc 0
+      freq 1
+      pos 84
+  term scusa
+    doc 0
+      freq 2
+      pos 49
+      pos 112
+  term se
+    doc 0
+      freq 2
+      pos 50
+      pos 113
+  term sento
+    doc 0
+      freq 1
+      pos 95
+  term si
+    doc 0
+      freq 3
+      pos 63
+      pos 85
+      pos 126
+  term siamo
+    doc 0
+      freq 1
+      pos 97
+  term silenzio
+    doc 0
+      freq 2
+      pos 55
+      pos 118
+  term so
+    doc 0
+      freq 4
+      pos 21
+      pos 25
+      pos 32
+      pos 90
+  term sono
+    doc 0
+      freq 2
+      pos 59
+      pos 122
+  term sorte
+    doc 0
+      freq 1
+      pos 27
+  term squilla
+    doc 0
+      freq 1
+      pos 7
+  term stanotte
+    doc 0
+      freq 1
+      pos 30
+  term strofa
+    doc 0
+      freq 2
+      pos 3
+      pos 69
+  term sul
+    doc 0
+      freq 1
+      pos 12
+  term telefonata
+    doc 0
+      freq 6
+      pos 0
+      pos 37
+      pos 40
+      pos 100
+      pos 103
+      pos 133
+  term telefono
+    doc 0
+      freq 1
+      pos 6
+  term temo
+    doc 0
+      freq 1
+      pos 35
+  term tengo
+    doc 0
+      freq 1
+      pos 79
+  term ti
+    doc 0
+      freq 4
+      pos 52
+      pos 56
+      pos 115
+      pos 119
+  term tre
+    doc 0
+      freq 7
+      pos 2
+      pos 9
+      pos 39
+      pos 42
+      pos 102
+      pos 105
+      pos 135
+  term tremo
+    doc 0
+      freq 1
+      pos 19
+  term tua
+    doc 0
+      freq 2
+      pos 44
+      pos 107
+  term tuo
+    doc 0
+      freq 1
+      pos 15
+  term tuoi
+    doc 0
+      freq 2
+      pos 48
+      pos 111
+  term un
+    doc 0
+      freq 3
+      pos 65
+      pos 83
+      pos 128
+  term voce
+    doc 0
+      freq 2
+      pos 45
+      pos 108
+  term è
+    doc 0
+      freq 1
+      pos 92
+field id
+  term C:\\Users\\March\\Desktop\\Ingegneria_dei_dati\\hw3\\.\\canzoni_inventate\\Telefonata alle tre testo.txt
+    doc 0
+field titolo
+  term alle
+    doc 0
+      freq 1
+      pos 1
+  term telefonata
+    doc 0
+      freq 1
+      pos 0
+  term testo.txt
+    doc 0
+      freq 1
+      pos 3
+  term tre
+    doc 0
+      freq 1
+      pos 2
+END
+checksum 00000000001408241350
+table of contents, size: 4
+  filename: _ct.fld
+    start: 23
+    end: 145
+  filename: _ct.inf
+    start: 168
+    end: 1414
+  filename: _ct.len
+    start: 1437
+    end: 1939
+  filename: _ct.pst
+    start: 1962
+    end: 6677
+table of contents begins at offset: 0000000000000006677

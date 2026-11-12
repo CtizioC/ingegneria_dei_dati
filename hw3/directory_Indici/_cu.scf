@@ -1,0 +1,485 @@
+cfs entry for: _cu.fld
+doc 0
+  field 0
+    name titolo
+    type string
+    value Ultimo autobus testo.txt
+END
+checksum 00000000001814337988
+cfs entry for: _cu.inf
+number of fields 3
+  name titolo
+  number 0
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+  name contenuto
+  number 1
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+  name id
+  number 2
+  index options DOCS
+  term vectors false
+  payloads false
+  norms false
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+checksum 00000000000833685951
+cfs entry for: _cu.len
+field titolo
+  type NUMERIC
+  minalue 3
+  maxvalue 3
+  doccount 1
+  maxvaluecount 1
+  origin 3
+  pattern 0
+0
+T
+  skipdata
+    interval
+      minDocID 0
+      maxDocID 0
+      minValue 3
+      maxValue 3
+      docCount 1
+  skipend
+field contenuto
+  type NUMERIC
+  minalue 60
+  maxvalue 60
+  doccount 1
+  maxvaluecount 1
+  origin 60
+  pattern 0
+0
+T
+  skipdata
+    interval
+      minDocID 0
+      maxDocID 0
+      minValue 60
+      maxValue 60
+      docCount 1
+  skipend
+END
+checksum 00000000000909556276
+cfs entry for: _cu.pst
+field contenuto
+  term 1
+    doc 0
+      freq 1
+      pos 3
+  term 2
+    doc 0
+      freq 1
+      pos 57
+  term a
+    doc 0
+      freq 3
+      pos 35
+      pos 84
+      pos 98
+  term abbraccio
+    doc 0
+      freq 2
+      pos 47
+      pos 110
+  term agio
+    doc 0
+      freq 1
+      pos 86
+  term appannato
+    doc 0
+      freq 2
+      pos 51
+      pos 114
+  term autobus
+    doc 0
+      freq 7
+      pos 1
+      pos 6
+      pos 31
+      pos 33
+      pos 94
+      pos 96
+      pos 121
+  term biglietto
+    doc 0
+      freq 1
+      pos 70
+  term casa
+    doc 0
+      freq 2
+      pos 36
+      pos 99
+  term che
+    doc 0
+      freq 3
+      pos 52
+      pos 76
+      pos 115
+  term chi
+    doc 0
+      freq 2
+      pos 37
+      pos 100
+  term cinque
+    doc 0
+      freq 1
+      pos 17
+  term città
+    doc 0
+      freq 1
+      pos 75
+  term come
+    doc 0
+      freq 1
+      pos 25
+  term con
+    doc 0
+      freq 2
+      pos 22
+      pos 61
+  term conducente
+    doc 0
+      freq 1
+      pos 10
+  term del
+    doc 0
+      freq 1
+      pos 123
+  term di
+    doc 0
+      freq 3
+      pos 7
+      pos 54
+      pos 117
+  term dorme
+    doc 0
+      freq 1
+      pos 60
+  term e
+    doc 0
+      freq 3
+      pos 48
+      pos 81
+      pos 111
+  term fa
+    doc 0
+      freq 1
+      pos 78
+  term fermata
+    doc 0
+      freq 2
+      pos 43
+      pos 106
+  term fianchi
+    doc 0
+      freq 1
+      pos 28
+  term finale
+    doc 0
+      freq 1
+      pos 119
+  term gli
+    doc 0
+      freq 1
+      pos 12
+  term grazie
+    doc 0
+      freq 1
+      pos 122
+  term guardo
+    doc 0
+      freq 1
+      pos 73
+  term ha
+    doc 0
+      freq 3
+      pos 11
+      pos 38
+      pos 101
+  term i
+    doc 0
+      freq 1
+      pos 23
+  term il
+    doc 0
+      freq 3
+      pos 9
+      pos 49
+      pos 112
+  term in
+    doc 0
+      freq 2
+      pos 16
+      pos 89
+  term io
+    doc 0
+      freq 1
+      pos 72
+  term la
+    doc 0
+      freq 4
+      pos 40
+      pos 62
+      pos 74
+      pos 103
+  term lontano
+    doc 0
+      freq 1
+      pos 80
+  term mi
+    doc 0
+      freq 1
+      pos 82
+  term mio
+    doc 0
+      freq 1
+      pos 85
+  term nei
+    doc 0
+      freq 1
+      pos 27
+  term nelle
+    doc 0
+      freq 1
+      pos 19
+  term notte
+    doc 0
+      freq 1
+      pos 8
+  term occhi
+    doc 0
+      freq 1
+      pos 13
+  term ognuno
+    doc 0
+      freq 1
+      pos 18
+  term ora
+    doc 0
+      freq 1
+      pos 88
+  term parla
+    doc 0
+      freq 2
+      pos 53
+      pos 116
+  term passaggio
+    doc 0
+      freq 1
+      pos 124
+  term pensieri
+    doc 0
+      freq 1
+      pos 24
+  term per
+    doc 0
+      freq 1
+      pos 87
+  term perso
+    doc 0
+      freq 2
+      pos 39
+      pos 102
+  term più
+    doc 0
+      freq 1
+      pos 79
+  term porta
+    doc 0
+      freq 2
+      pos 34
+      pos 97
+  term questo
+    doc 0
+      freq 1
+      pos 90
+  term ragazza
+    doc 0
+      freq 1
+      pos 59
+  term ritornello
+    doc 0
+      freq 2
+      pos 29
+      pos 92
+  term rotte
+    doc 0
+      freq 1
+      pos 21
+  term salgo
+    doc 0
+      freq 1
+      pos 4
+  term sassi
+    doc 0
+      freq 1
+      pos 26
+  term sento
+    doc 0
+      freq 1
+      pos 83
+  term sfoglia
+    doc 0
+      freq 1
+      pos 68
+  term si
+    doc 0
+      freq 1
+      pos 77
+  term siamo
+    doc 0
+      freq 1
+      pos 15
+  term sogno
+    doc 0
+      freq 2
+      pos 45
+      pos 108
+  term spiegato
+    doc 0
+      freq 1
+      pos 71
+  term stanchi
+    doc 0
+      freq 1
+      pos 14
+  term stato
+    doc 0
+      freq 1
+      pos 91
+  term strada
+    doc 0
+      freq 4
+      pos 41
+      pos 55
+      pos 104
+      pos 118
+  term strofa
+    doc 0
+      freq 2
+      pos 2
+      pos 56
+  term sue
+    doc 0
+      freq 1
+      pos 20
+  term sul
+    doc 0
+      freq 1
+      pos 64
+  term sull'ultimo
+    doc 0
+      freq 1
+      pos 5
+  term testa
+    doc 0
+      freq 1
+      pos 63
+  term ultimo
+    doc 0
+      freq 6
+      pos 0
+      pos 30
+      pos 32
+      pos 93
+      pos 95
+      pos 120
+  term un
+    doc 0
+      freq 6
+      pos 44
+      pos 46
+      pos 66
+      pos 69
+      pos 107
+      pos 109
+  term una
+    doc 0
+      freq 3
+      pos 42
+      pos 58
+      pos 105
+  term vecchio
+    doc 0
+      freq 1
+      pos 67
+  term vetro
+    doc 0
+      freq 3
+      pos 50
+      pos 65
+      pos 113
+field id
+  term C:\\Users\\March\\Desktop\\Ingegneria_dei_dati\\hw3\\.\\canzoni_inventate\\Ultimo autobus testo.txt
+    doc 0
+field titolo
+  term autobus
+    doc 0
+      freq 1
+      pos 1
+  term testo.txt
+    doc 0
+      freq 1
+      pos 2
+  term ultimo
+    doc 0
+      freq 1
+      pos 0
+END
+checksum 00000000001195914028
+table of contents, size: 4
+  filename: _cu.fld
+    start: 23
+    end: 140
+  filename: _cu.inf
+    start: 163
+    end: 1409
+  filename: _cu.len
+    start: 1432
+    end: 1934
+  filename: _cu.pst
+    start: 1957
+    end: 6587
+table of contents begins at offset: 0000000000000006587

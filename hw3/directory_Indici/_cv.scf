@@ -1,0 +1,463 @@
+cfs entry for: _cv.fld
+doc 0
+  field 0
+    name titolo
+    type string
+    value Vento di marzo testo.txt
+END
+checksum 00000000001213573611
+cfs entry for: _cv.inf
+number of fields 3
+  name titolo
+  number 0
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+  name contenuto
+  number 1
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+  name id
+  number 2
+  index options DOCS
+  term vectors false
+  payloads false
+  norms false
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+checksum 00000000000833685951
+cfs entry for: _cv.len
+field titolo
+  type NUMERIC
+  minalue 4
+  maxvalue 4
+  doccount 1
+  maxvaluecount 1
+  origin 4
+  pattern 0
+0
+T
+  skipdata
+    interval
+      minDocID 0
+      maxDocID 0
+      minValue 4
+      maxValue 4
+      docCount 1
+  skipend
+field contenuto
+  type NUMERIC
+  minalue 60
+  maxvalue 60
+  doccount 1
+  maxvaluecount 1
+  origin 60
+  pattern 0
+0
+T
+  skipdata
+    interval
+      minDocID 0
+      maxDocID 0
+      minValue 60
+      maxValue 60
+      docCount 1
+  skipend
+END
+checksum 00000000000664102319
+cfs entry for: _cv.pst
+field contenuto
+  term 1
+    doc 0
+      freq 1
+      pos 4
+  term 2
+    doc 0
+      freq 1
+      pos 61
+  term a
+    doc 0
+      freq 2
+      pos 44
+      pos 104
+  term apre
+    doc 0
+      freq 1
+      pos 18
+  term aquilone
+    doc 0
+      freq 1
+      pos 63
+  term bello
+    doc 0
+      freq 1
+      pos 90
+  term cambiare
+    doc 0
+      freq 2
+      pos 48
+      pos 108
+  term cammino
+    doc 0
+      freq 1
+      pos 30
+  term cappello
+    doc 0
+      freq 1
+      pos 74
+  term che
+    doc 0
+      freq 4
+      pos 41
+      pos 53
+      pos 101
+      pos 113
+  term chiave
+    doc 0
+      freq 2
+      pos 45
+      pos 105
+  term chiuso
+    doc 0
+      freq 2
+      pos 43
+      pos 103
+  term cuore
+    doc 0
+      freq 2
+      pos 55
+      pos 115
+  term dal
+    doc 0
+      freq 1
+      pos 29
+  term del
+    doc 0
+      freq 1
+      pos 15
+  term di
+    doc 0
+      freq 5
+      pos 1
+      pos 6
+      pos 33
+      pos 93
+      pos 122
+  term donna
+    doc 0
+      freq 1
+      pos 70
+  term dove
+    doc 0
+      freq 1
+      pos 87
+  term e
+    doc 0
+      freq 4
+      pos 21
+      pos 25
+      pos 51
+      pos 111
+  term faccia
+    doc 0
+      freq 2
+      pos 57
+      pos 117
+  term finale
+    doc 0
+      freq 1
+      pos 120
+  term forte
+    doc 0
+      freq 2
+      pos 37
+      pos 97
+  term ho
+    doc 0
+      freq 4
+      pos 42
+      pos 77
+      pos 80
+      pos 102
+  term idee
+    doc 0
+      freq 1
+      pos 10
+  term il
+    doc 0
+      freq 5
+      pos 13
+      pos 54
+      pos 73
+      pos 83
+      pos 114
+  term impiglia
+    doc 0
+      freq 1
+      pos 65
+  term imposte
+    doc 0
+      freq 1
+      pos 20
+  term in
+    doc 0
+      freq 1
+      pos 66
+  term io
+    doc 0
+      freq 1
+      pos 75
+  term l'inverno
+    doc 0
+      freq 1
+      pos 28
+  term lasciare
+    doc 0
+      freq 2
+      pos 52
+      pos 112
+  term le
+    doc 0
+      freq 7
+      pos 9
+      pos 19
+      pos 22
+      pos 39
+      pos 49
+      pos 99
+      pos 109
+  term lieve
+    doc 0
+      freq 2
+      pos 59
+      pos 119
+  term marzo
+    doc 0
+      freq 5
+      pos 2
+      pos 7
+      pos 34
+      pos 94
+      pos 123
+  term mattino
+    doc 0
+      freq 1
+      pos 17
+  term mi
+    doc 0
+      freq 1
+      pos 85
+  term non
+    doc 0
+      freq 2
+      pos 76
+      pos 79
+  term paura
+    doc 0
+      freq 1
+      pos 78
+  term più
+    doc 0
+      freq 6
+      pos 36
+      pos 58
+      pos 81
+      pos 89
+      pos 96
+      pos 118
+  term porta
+    doc 0
+      freq 2
+      pos 12
+      pos 86
+  term portami
+    doc 0
+      freq 1
+      pos 124
+  term porte
+    doc 0
+      freq 2
+      pos 40
+      pos 100
+  term primo
+    doc 0
+      freq 1
+      pos 16
+  term profumo
+    doc 0
+      freq 1
+      pos 14
+  term ramo
+    doc 0
+      freq 1
+      pos 68
+  term ricominciare
+    doc 0
+      freq 2
+      pos 47
+      pos 107
+  term rimpianto
+    doc 0
+      freq 1
+      pos 82
+  term ritornello
+    doc 0
+      freq 2
+      pos 31
+      pos 91
+  term scompiglia
+    doc 0
+      freq 1
+      pos 8
+  term si
+    doc 0
+      freq 4
+      pos 56
+      pos 64
+      pos 71
+      pos 116
+  term soffia
+    doc 0
+      freq 2
+      pos 35
+      pos 95
+  term sorti
+    doc 0
+      freq 2
+      pos 50
+      pos 110
+  term spalanca
+    doc 0
+      freq 2
+      pos 38
+      pos 98
+  term spazza
+    doc 0
+      freq 1
+      pos 26
+  term strofa
+    doc 0
+      freq 2
+      pos 3
+      pos 60
+  term ti
+    doc 0
+      freq 1
+      pos 11
+  term tiene
+    doc 0
+      freq 1
+      pos 72
+  term un
+    doc 0
+      freq 2
+      pos 62
+      pos 67
+  term una
+    doc 0
+      freq 1
+      pos 69
+  term vecchie
+    doc 0
+      freq 1
+      pos 23
+  term vento
+    doc 0
+      freq 6
+      pos 0
+      pos 5
+      pos 32
+      pos 84
+      pos 92
+      pos 121
+  term vetrine
+    doc 0
+      freq 1
+      pos 24
+  term via
+    doc 0
+      freq 2
+      pos 27
+      pos 125
+  term voglio
+    doc 0
+      freq 2
+      pos 46
+      pos 106
+  term è
+    doc 0
+      freq 1
+      pos 88
+field id
+  term C:\\Users\\March\\Desktop\\Ingegneria_dei_dati\\hw3\\.\\canzoni_inventate\\Vento di marzo testo.txt
+    doc 0
+field titolo
+  term di
+    doc 0
+      freq 1
+      pos 1
+  term marzo
+    doc 0
+      freq 1
+      pos 2
+  term testo.txt
+    doc 0
+      freq 1
+      pos 3
+  term vento
+    doc 0
+      freq 1
+      pos 0
+END
+checksum 00000000003862188406
+table of contents, size: 4
+  filename: _cv.fld
+    start: 23
+    end: 140
+  filename: _cv.inf
+    start: 163
+    end: 1409
+  filename: _cv.len
+    start: 1432
+    end: 1934
+  filename: _cv.pst
+    start: 1957
+    end: 6332
+table of contents begins at offset: 0000000000000006332

@@ -1,0 +1,29 @@
+    version 10.6.0
+    min version 10.6.0
+    number of documents 1
+    uses compound file true
+    has blocks false
+    diagnostics 8
+      key os.arch
+      value amd64
+      key os
+      value Windows 10
+      key java.vendor
+      value Oracle Corporation
+      key java.runtime.version
+      value 24.0.2+12-54
+      key timestamp
+      value 1794507273103
+      key source
+      value flush
+      key lucene.version
+      value 10.6.0
+      key os.version
+      value 10.0
+    attributes 0
+    files 2
+      file _d0.scf
+      file _d0.si
+    id [a4 5 19 51 41 7 12 29 ac 65 19 ab 5c 45 72 82]
+    sort 0
+checksum 00000000003896157624
