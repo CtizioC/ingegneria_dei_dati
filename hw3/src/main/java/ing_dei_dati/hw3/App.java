@@ -120,7 +120,6 @@ public class App
             	return;
             }
             for(ScoreDoc sd:hits.scoreDocs) {
-            	// DA FARE
                 Document doc = storedFields.document(sd.doc);
                 System.out.println(doc.get("titolo"));
             }
