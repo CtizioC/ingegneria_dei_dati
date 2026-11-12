@@ -137,7 +137,7 @@ public class App
             //ScoreDoc scoreDoc = hits.scoreDocs[0];
             StoredFields storedFields = searcher.storedFields();
             for(ScoreDoc sd:hits.scoreDocs) {
-            	// DA FARE
+            	
                 Document doc = storedFields.document(sd.doc);
                 System.out.println(doc.get("titolo"));
             }
