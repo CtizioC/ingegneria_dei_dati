@@ -65,7 +65,7 @@ public class Indexer {
     
     //Creo l'indexWriter per scrivere l'index
     IndexWriterConfig config = new IndexWriterConfig(/*perFieldAnalyzer*/);
-    config.setCodec(new SimpleTextCodec());
+    //config.setCodec(new SimpleTextCodec());
     IndexWriter writer = new IndexWriter(directory, config);
     
    //Indicizzazione files
