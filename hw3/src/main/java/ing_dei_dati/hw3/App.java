@@ -30,26 +30,32 @@ public class App
 {
     public static void main( String[] args ) throws IOException, ParseException
     {
-    	String directoryIndici="./directory_Indici";
+    	String directoryIndiciN="./directory_Indici_nome";
+    	String directoryIndiciC="./directory_Indici_contenuto";
     	String directoryDocumenti="./canzoni_inventate";
-    	Indexer indexer=new Indexer(directoryIndici,directoryDocumenti);
-    	indexer.index();
+
+    	//creo gli indexer (uno per nome e uno per contenuto)
+    	IndexerContenuto indexerC=new IndexerContenuto(directoryIndiciC,directoryDocumenti);
+    	indexerC.index();
+    	IndexerNome indexerN=new IndexerNome(directoryIndiciN,directoryDocumenti);
+    	indexerN.index();
     	
-        Path path = Paths.get(directoryIndici);
+    	
+ /*       Path path = Paths.get(directoryIndiciN);
         Directory directory = FSDirectory.open(path);
         
         IndexReader reader = DirectoryReader.open(directory);
         IndexSearcher searcher = new IndexSearcher(reader);
- 
+ */
         
         // --- QUERY UTENTE ------ 
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Fai la tua query (con \"titolo\" fai una ricerca nel titolo, con \"contenuto\" nel corpo del file): ");
-        System.out.print("(scrivi \"0\" per usicre)	: ");
-        String input =/*"";
+        System.out.print("(scrivi \"0\" per uscire)	: ");
+        String input ="";
         while(true) {
-        	input= */scanner.nextLine().trim(); // Legge la riga e rimuove spazi iniziali/finali
+        	input= scanner.nextLine().trim(); // Legge la riga e rimuove spazi iniziali/finali
         
                 
         if (input.isEmpty()) {
@@ -76,10 +82,7 @@ public class App
 
         
         
-        
-        if(comando.equals("titolo")||comando.equals("contenuto")) {
-            //System.out.println("Eseguo " + comando);
-        }else {
+        if(!(comando.equals("titolo")||comando.equals("contenuto"))) {
         	System.out.println("Comando \"" + comando+"\" non valido.");
         	scanner.close();
         	return;
@@ -88,25 +91,33 @@ public class App
         
                 
         
-//finito di leggere la query dell'utente e interpretarla
+        //finito di leggere la query dell'utente e interpretarla
+        
+        
+        
+        //verifico che indice devo interrogare
+        
+        if(comando.equals("titolo")) {
+        	
+            Path path = Paths.get(directoryIndiciN);
+            Directory directory = FSDirectory.open(path);
+            
+            IndexReader reader = DirectoryReader.open(directory);
+            IndexSearcher searcher = new IndexSearcher(reader);
+     
         
         
 
-        // Verifica se è una phrase query (quindi che la stringa sia lunga almeno 2 caratteri e che inizi e finisca con " )
+        // Verifica se è una PHRASE QUERY (quindi che la stringa sia lunga almeno 2 caratteri e che inizi e finisca con " )
+        
         if (queryTxt != null && queryTxt.length() >= 2 && queryTxt.startsWith("\"") && queryTxt.endsWith("\"")) {
-            // Estrae la sottostringa escludendo il primo e l'ultimo carattere
+        	
+            // Estrae la sottostringa escludendo il primo e l'ultimo carattere (le ")
             String senzaVirgolette = queryTxt.substring(1, queryTxt.length() - 1);
-            
-            //FAI PHRASE QUERY
-            
-            //String queryPh="\""+queryTxt+"\"";
+
             QueryParser parser=new QueryParser(comando, new StandardAnalyzer());
-            //System.out.println(parser.parse(queryPh));
             Query phraseQuery = parser.parse("\"" + senzaVirgolette + "\"");
-            
-            //PhraseQuery phraseQuery = new PhraseQuery(0,comando, parser.parse(senzaVirgolette));
-            
-            
+                
             //System.out.println(phraseQuery);
             
             
@@ -120,8 +131,9 @@ public class App
             	return;
             }
             for(ScoreDoc sd:hits.scoreDocs) {
+
                 Document doc = storedFields.document(sd.doc);
-                System.out.println(doc.get("titolo"));
+                System.out.println(doc.get("titolo")+"\n"+sd.score+"\n___________________________________");
             }
             
             
@@ -136,13 +148,73 @@ public class App
             //ScoreDoc scoreDoc = hits.scoreDocs[0];
             StoredFields storedFields = searcher.storedFields();
             for(ScoreDoc sd:hits.scoreDocs) {
-            	
+
                 Document doc = storedFields.document(sd.doc);
-                System.out.println(doc.get("titolo"));
+                System.out.println(doc.get("titolo")+"\n"+sd.score+"\n___________________________________");
             }
         	
         }
-        scanner.close();
+        }
+        if(comando.equals("contenuto")) {
+        	
+            Path path = Paths.get(directoryIndiciC);
+            Directory directory = FSDirectory.open(path);
+            
+            IndexReader reader = DirectoryReader.open(directory);
+            IndexSearcher searcher = new IndexSearcher(reader);
+     
+        
+        
+
+        // Verifica se è una PHRASE QUERY (quindi che la stringa sia lunga almeno 2 caratteri e che inizi e finisca con " )
+        
+        if (queryTxt != null && queryTxt.length() >= 2 && queryTxt.startsWith("\"") && queryTxt.endsWith("\"")) {
+        	
+            // Estrae la sottostringa escludendo il primo e l'ultimo carattere (le ")
+            String senzaVirgolette = queryTxt.substring(1, queryTxt.length() - 1);
+
+            QueryParser parser=new QueryParser(comando, new StandardAnalyzer());
+            Query phraseQuery = parser.parse("\"" + senzaVirgolette + "\"");
+                
+            //System.out.println(phraseQuery);
+            
+            
+            
+            
+            //cerca
+            TopDocs hits = searcher.search(phraseQuery, 3);
+            StoredFields storedFields = searcher.storedFields();
+            if(hits.scoreDocs.length==0) {
+            	System.out.println("Query senza risultati");
+            	return;
+            }
+            for(ScoreDoc sd:hits.scoreDocs) {
+
+                Document doc = storedFields.document(sd.doc);
+                System.out.println(doc.get("contenuto")+"\n"+sd.score+"\n___________________________________");
+            }
+            
+            
+        }else {
+        	
+        	//faccio termquery
+            QueryParser queryParser = new QueryParser(comando, new StandardAnalyzer());
+            Query query = queryParser.parse(queryTxt);
+            //System.out.println(query);
+
+            TopDocs hits = searcher.search(query, 3);
+            //ScoreDoc scoreDoc = hits.scoreDocs[0];
+            StoredFields storedFields = searcher.storedFields();
+            for(ScoreDoc sd:hits.scoreDocs) {
+
+                Document doc = storedFields.document(sd.doc);
+                System.out.println(doc.get("contenuto")+"\n"+sd.score+"\n___________________________________");
+            }
+        	
+        }
+        }
+        }
+        //scanner.close();
     }
 }
 

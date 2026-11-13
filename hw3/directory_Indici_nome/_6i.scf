@@ -1,0 +1,105 @@
+cfs entry for: _6i.fld
+doc 0
+  field 2
+    name titolo
+    type string
+    value Vento di marzo testo.txt
+END
+checksum 00000000002092701622
+cfs entry for: _6i.inf
+number of fields 2
+  name id
+  number 1
+  index options DOCS
+  term vectors false
+  payloads false
+  norms false
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+  name titolo
+  number 2
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+checksum 00000000000040500508
+cfs entry for: _6i.len
+field titolo
+  type NUMERIC
+  minalue 4
+  maxvalue 4
+  doccount 1
+  maxvaluecount 1
+  origin 4
+  pattern 0
+0
+T
+  skipdata
+    interval
+      minDocID 0
+      maxDocID 0
+      minValue 4
+      maxValue 4
+      docCount 1
+  skipend
+END
+checksum 00000000000144019193
+cfs entry for: _6i.pst
+field id
+  term C:\\Users\\March\\Desktop\\Ingegneria_dei_dati\\hw3\\.\\canzoni_inventate\\Vento di marzo testo.txt
+    doc 0
+field titolo
+  term di
+    doc 0
+      freq 1
+      pos 1
+  term marzo
+    doc 0
+      freq 1
+      pos 2
+  term testo.txt
+    doc 0
+      freq 1
+      pos 3
+  term vento
+    doc 0
+      freq 1
+      pos 0
+END
+checksum 00000000002366066785
+table of contents, size: 4
+  filename: _6i.fld
+    start: 23
+    end: 140
+  filename: _6i.inf
+    start: 163
+    end: 999
+  filename: _6i.len
+    start: 1022
+    end: 1286
+  filename: _6i.pst
+    start: 1309
+    end: 1675
+table of contents begins at offset: 0000000000000001675

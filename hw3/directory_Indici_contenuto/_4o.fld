@@ -1,0 +1,992 @@
+doc 0
+  field 0
+    name contenuto
+    type string
+    value Bicicletta rossa\
+\
+[Strofa 1]\
+Avevo una bici rossa e un taglio sul ginocchio\
+la strada in discesa verso il fiume\
+tu mi aspettavi con il tuo sorriso storto\
+e il mondo era un giorno di piume\
+\
+[Ritornello]\
+Pedala, pedala, bicicletta rossa\
+non guardare indietro, non ti fermare\
+l'estate è una corsa, un'idea che si ingrossa\
+e noi due siamo fatti per volare\
+\
+[Strofa 2]\
+Poi sono cresciuto e ho cambiato strada\
+la bici è rimasta nel vecchio garage\
+ma ogni tanto la sogno, e il vento mi lava\
+da tutto ciò che non ho saputo dare\
+\
+[Ritornello]\
+Pedala, pedala, bicicletta rossa\
+non guardare indietro, non ti fermare\
+l'estate è una corsa, un'idea che si ingrossa\
+e noi due siamo fatti per volare\
+\
+[Finale]\
+Bicicletta rossa, aspettami laggiù.\
+
+doc 1
+  field 0
+    name contenuto
+    type string
+    value Caffè alle cinque\
+\
+[Strofa 1]\
+Mi sveglio presto e la città dorme\
+la moka brontola sul fornello\
+ho in testa il tuo nome e nessuna forma\
+per dirti che il giorno è più bello\
+\
+[Ritornello]\
+Caffè alle cinque, caffè alle cinque\
+e un po' di luce che entra di sbieco\
+se resti ancora il mondo può aspettare\
+ho zucchero in tasca e un sogno per due\
+\
+[Strofa 2]\
+Il panettiere alza la saracinesca\
+l'odore del pane ci chiama per nome\
+tu ridi con gli occhi, ancora un po' stanca\
+e io ti prometto che andrà tutto bene\
+\
+[Ritornello]\
+Caffè alle cinque, caffè alle cinque\
+e un po' di luce che entra di sbieco\
+se resti ancora il mondo può aspettare\
+ho zucchero in tasca e un sogno per due\
+\
+[Finale]\
+Caffè alle cinque, e tu.\
+
+doc 2
+  field 0
+    name contenuto
+    type string
+    value Balla con me nel corridoio\
+\
+[Strofa 1]\
+Il vicino ha messo un disco vecchio\
+passa attraverso la parete sottile\
+tu mi prendi la mano, mi sfiori l'orecchio\
+e il corridoio diventa un salone di stile\
+\
+[Ritornello]\
+Balla con me nel corridoio\
+tra le scarpe e il portaombrelli\
+non serve la musica, non serve un teatro\
+basta il tuo passo, basta il tuo "dai\
+\
+[Strofa 2]\
+Giriamo piano sotto la lampadina\
+la sera ci guarda dal vetro sul fondo\
+tu ridi e mi dici che sono una frana\
+ma sei la danza più bella del mondo\
+\
+[Ritornello]\
+Balla con me nel corridoio\
+tra le scarpe e il portaombrelli\
+non serve la musica, non serve un teatro\
+basta il tuo passo, basta il tuo "dai\
+\
+[Finale]\
+Balla con me, ancora un giro.\
+
+doc 3
+  field 0
+    name contenuto
+    type string
+    value Domenica senza te\
+\
+[Strofa 1]\
+Le campane suonano a mezzogiorno\
+il sugo borbotta come una volta\
+ho apparecchiato per due per un giorno\
+e poi ho tolto un piatto dalla tavola\
+\
+[Ritornello]\
+Domenica senza te, domenica lenta\
+il sole sul tavolo non scalda più\
+ti cerco nei gesti, nell'ora che spenta\
+va a dormire sul divano blu\
+\
+[Strofa 2]\
+Telefono il nonno, mi chiede di te\
+rispondo che sei partita, che stai bene\
+ma la bugia pesa come un caffè\
+lasciato a raffreddare tra le mie pene\
+\
+[Ritornello]\
+Domenica senza te, domenica lenta\
+il sole sul tavolo non scalda più\
+ti cerco nei gesti, nell'ora che spenta\
+va a dormire sul divano blu\
+\
+[Finale]\
+Domenica senza te, domani è lunedì.\
+
+doc 4
+  field 0
+    name contenuto
+    type string
+    value Aquiloni\
+\
+[Strofa 1]\
+Sulla collina domenica mattina\
+c'è un campo di aquiloni colorati\
+i bimbi corrono con le mani in cima\
+e i padri guardano, un po' emozionati\
+\
+[Ritornello]\
+Aquiloni, aquiloni, dipinti di vento\
+tengono un filo sottile alla terra\
+ma vorrebbero andare dove non c'è spento\
+dove il cielo è una promessa che non erra\
+\
+[Strofa 2]\
+Anch'io avevo un filo da tenere\
+e una mano che mi sapeva guidare\
+ora che sono grande so come cadere\
+e so anche come ricominciare\
+\
+[Ritornello]\
+Aquiloni, aquiloni, dipinti di vento\
+tengono un filo sottile alla terra\
+ma vorrebbero andare dove non c'è spento\
+dove il cielo è una promessa che non erra\
+\
+[Finale]\
+Aquiloni, lasciate il filo andare.\
+
+doc 5
+  field 0
+    name contenuto
+    type string
+    value Cuore di sabbia\
+\
+[Strofa 1]\
+Ho un cuore di sabbia, si sfalda alle dita\
+ogni onda lo porta un po' più lontano\
+tu lo raccogli con mani infinite\
+e lo ricostruisci con calma, pian piano\
+\
+[Ritornello]\
+Cuore di sabbia, cuore di sabbia\
+non sa mantenere nessuna promessa\
+ma se lo tieni con cura e con rabbia\
+si fa più duro di una scommessa\
+\
+[Strofa 2]\
+Ogni mattina la marea lo spiana\
+ogni sera lo rifai di nuovo\
+è una fatica quasi umana\
+ma insieme ce la facciamo, lo provo\
+\
+[Ritornello]\
+Cuore di sabbia, cuore di sabbia\
+non sa mantenere nessuna promessa\
+ma se lo tieni con cura e con rabbia\
+si fa più duro di una scommessa\
+\
+[Finale]\
+Cuore di sabbia, resisti ancora.\
+
+doc 6
+  field 0
+    name contenuto
+    type string
+    value Estate in ritardo\
+\
+[Strofa 1]\
+Giugno è già qui ma il sole è timido\
+le nuvole fanno storie ai bagnanti\
+tu porti un maglione e sei sempre limpido\
+e io sono qui con i sogni distanti\
+\
+[Ritornello]\
+Estate in ritardo, estate in ritardo\
+arrivi sul fare di un tardo settembre\
+ma va bene lo stesso, ti prendo in custodia\
+e ti scrivo il mio nome sulla sabbia fredda\
+\
+[Strofa 2]\
+Il gelataio sbadiglia e fa i conti\
+i turisti son pochi e un po' distratti\
+noi due sul molo con i piedi nei fronti\
+dell'acqua che sa di inverno e di fatti\
+\
+[Ritornello]\
+Estate in ritardo, estate in ritardo\
+arrivi sul fare di un tardo settembre\
+ma va bene lo stesso, ti prendo in custodia\
+e ti scrivo il mio nome sulla sabbia fredda\
+\
+[Finale]\
+Estate in ritardo, resta fino a dicembre.\
+
+doc 7
+  field 0
+    name contenuto
+    type string
+    value Il giardino di nonna\
+\
+[Strofa 1]\
+Il giardino di nonna sapeva di basilico\
+di rose e di terra bagnata\
+le sue mani crepate come un vecchio fico\
+mi insegnavano a stare con la vita\
+\
+[Ritornello]\
+Il giardino di nonna, il giardino di nonna\
+non c'è più ma cresce nei miei ricordi\
+ogni primavera il vento mi sussurra\
+che il suo amore è fatto di semi e di accordi\
+\
+[Strofa 2]\
+Mi diceva "pazienza, ogni cosa ha il suo tempo\
+anche il fiore più bello ha una radice"\
+oggi lo capisco, guardando il mio vento\
+che porta il suo profumo e mi benedice\
+\
+[Ritornello]\
+Il giardino di nonna, il giardino di nonna\
+non c'è più ma cresce nei miei ricordi\
+ogni primavera il vento mi sussurra\
+che il suo amore è fatto di semi e di accordi\
+\
+[Finale]\
+Il giardino di nonna, il mio posto nel mondo.\
+
+doc 8
+  field 0
+    name contenuto
+    type string
+    value Il faro spento\
+\
+[Strofa 1]\
+C'era un guardiano e una lampada grande\
+che girava e tagliava la notte\
+ora il faro è spento e le sue mura blande\
+raccontano storie di barche e di rotte\
+\
+[Ritornello]\
+Il faro spento, il faro spento\
+ha dato la luce a chi si era perso\
+oggi è un monumento, un sogno nel vento\
+e io lo saluto, senza dire un verso\
+\
+[Strofa 2]\
+Nessuno più guarda quella torre bianca\
+i pescatori usano uno schermo\
+ma io mi ricordo di un'alba più stanca\
+e di un fascio di luce sul mare fermo\
+\
+[Ritornello]\
+Il faro spento, il faro spento\
+ha dato la luce a chi si era perso\
+oggi è un monumento, un sogno nel vento\
+e io lo saluto, senza dire un verso\
+\
+[Finale]\
+Il faro spento brilla dentro di me.\
+
+doc 9
+  field 0
+    name contenuto
+    type string
+    value Il treno delle undici\
+\
+[Strofa 1]\
+Ho la valigia ma non la voglia\
+il capostazione fischia lontano\
+tu sei sul binario con la tua foglia\
+d'autunno stretta nella mano\
+\
+[Ritornello]\
+Il treno delle undici non aspetta nessuno\
+porta via le promesse e i sorrisi a metà\
+io salgo e mi volto, non c'è più nessuno\
+solo il vento che dice che tornerà\
+\
+[Strofa 2]\
+Fuori dal vetro scorrono i campi\
+la nebbia è un lenzuolo sui paesi\
+conto le luci, conto gli istanti\
+che mi separano da quello che chiesi\
+\
+[Ritornello]\
+Il treno delle undici non aspetta nessuno\
+porta via le promesse e i sorrisi a metà\
+io salgo e mi volto, non c'è più nessuno\
+solo il vento che dice che tornerà\
+\
+[Finale]\
+Il treno delle undici... e poi il silenzio.\
+
+doc 10
+  field 0
+    name contenuto
+    type string
+    value La stazione vuota\
+\
+[Strofa 1]\
+Alle tre di notte la stazione è vuota\
+il tabellone mostra un ritardo infinito\
+ho un biglietto in tasca e una strada rotta\
+e il tuo nome ancora scritto sul dito\
+\
+[Ritornello]\
+Aspetto un treno che non passerà\
+aspetto una voce che non risponderà\
+la stazione vuota è la mia città\
+e io sono il suo unico abitante qua\
+\
+[Strofa 2]\
+Un barbone dorme sotto un cappotto\
+un gatto attraversa i binari assonnato\
+io conto i minuti, e poi ne conto otto\
+mentre il cielo diventa più chiaro e sfumato\
+\
+[Ritornello]\
+Aspetto un treno che non passerà\
+aspetto una voce che non risponderà\
+la stazione vuota è la mia città\
+e io sono il suo unico abitante qua\
+\
+[Finale]\
+La stazione vuota si riempie di luce.\
+
+doc 11
+  field 0
+    name contenuto
+    type string
+    value Fogli di carta\
+\
+[Strofa 1]\
+Ho scritto mille canzoni su fogli di carta\
+che il vento si è preso una sera d'aprile\
+sono volati sopra la città intera\
+come stormi di uccelli sottili\
+\
+[Ritornello]\
+Fogli di carta, fogli di carta\
+portate lontano le mie parole\
+magari qualcuno le troverà in strada\
+e le canterà senza saper chi le vuole\
+\
+[Strofa 2]\
+Un bimbo ne raccoglie uno rotto\
+lo piega a barchetta e lo mette nel fosso\
+la pioggia lo porta, lo porta più sotto\
+verso un mare che io non ho mai visto\
+\
+[Ritornello]\
+Fogli di carta, fogli di carta\
+portate lontano le mie parole\
+magari qualcuno le troverà in strada\
+e le canterà senza saper chi le vuole\
+\
+[Finale]\
+Fogli di carta, nessuno è perduto.\
+
+doc 12
+  field 0
+    name contenuto
+    type string
+    value Foto sbiadite\
+\
+[Strofa 1]\
+Nel cassetto ho un mucchio di foto sbiadite\
+dove siamo giovani e senza pensieri\
+i colori si sono un po' consumati nel tempo\
+ma i sorrisi restano veri\
+\
+[Ritornello]\
+Foto sbiadite, foto sbiadite\
+sono le prove che siamo esistiti\
+guardo i tuoi occhi, le mani intrecciate\
+e mi accorgo di quanto siamo cresciuti\
+\
+[Strofa 2]\
+Una spiaggia, un cane, un compleanno\
+un viaggio in macchina con la musica forte\
+chi ce l'avrebbe detto che col passare dell'anno\
+saremmo diventati così diversi e così forti\
+\
+[Ritornello]\
+Foto sbiadite, foto sbiadite\
+sono le prove che siamo esistiti\
+guardo i tuoi occhi, le mani intrecciate\
+e mi accorgo di quanto siamo cresciuti\
+\
+[Finale]\
+Foto sbiadite, restate con me.\
+
+doc 13
+  field 0
+    name contenuto
+    type string
+    value Il mio quartiere\
+\
+[Strofa 1]\
+Il mio quartiere ha un nome da sbadiglio\
+case basse e bucato che sventola\
+il fruttivendolo ti chiama "figlio"\
+e il tram che passa scuote la tovaglia\
+\
+[Ritornello]\
+Il mio quartiere, il mio quartiere\
+non è su nessuna cartolina\
+ma è lì che ho imparato a cadere\
+e a rialzarmi la mattina\
+\
+[Strofa 2]\
+Le vecchie sul balcone con la radio accesa\
+i ragazzi al muretto che parlano forte\
+una bandiera di squadra mai stesa\
+e un cielo che non cambia sorte\
+\
+[Ritornello]\
+Il mio quartiere, il mio quartiere\
+non è su nessuna cartolina\
+ma è lì che ho imparato a cadere\
+e a rialzarmi la mattina\
+\
+[Finale]\
+Il mio quartiere, casa mia.\
+
+doc 14
+  field 0
+    name contenuto
+    type string
+    value Ombrelli sul tetto\
+\
+[Strofa 1]\
+Piove da ore sul vecchio quartiere\
+e tu mi guardi dalla finestra\
+non chiedo niente, chiedo di stare\
+anche se il cielo è una protesta\
+\
+[Ritornello]\
+Ombrelli sul tetto, ombrelli sul tetto\
+noi due fermi a contare le gocce\
+non serve un posto, non serve un progetto\
+basta il rumore che il tempo ci scioglie\
+\
+[Strofa 2]\
+Il tram che passa fa tremare i vetri\
+la tua tazza si fredda in silenzio\
+ridiamo piano dei nostri segreti\
+mentre la sera ci sta già abbracciando\
+\
+[Ritornello]\
+Ombrelli sul tetto, ombrelli sul tetto\
+noi due fermi a contare le gocce\
+non serve un posto, non serve un progetto\
+basta il rumore che il tempo ci scioglie\
+\
+[Finale]\
+Piove ancora, e non ho voglia di smettere.\
+
+doc 15
+  field 0
+    name contenuto
+    type string
+    value Lettera mai spedita\
+\
+[Strofa 1]\
+Ti ho scritto una lettera, l'ho rilegata\
+con le parole che non ho detto\
+l'ho messa in un cassetto, poi dimenticata\
+tra le chiavi di un vecchio appartamento\
+\
+[Ritornello]\
+E non la spedirò, non la spedirò\
+resterà lì tra la polvere e il sole\
+tu non saprai quanto ti ho pensato\
+e va bene così, e va bene così\
+\
+[Strofa 2]\
+Rileggo le righe e mi sembrano belle\
+ma ogni "ti voglio" ha il peso di un lutto\
+c'è una scrittura che trema, due stelle\
+disegnate a margine, e basta, è tutto\
+\
+[Ritornello]\
+E non la spedirò, non la spedirò\
+resterà lì tra la polvere e il sole\
+tu non saprai quanto ti ho pensato\
+e va bene così, e va bene così\
+\
+[Finale]\
+Lettera mai spedita, resta con me.\
+
+doc 16
+  field 0
+    name contenuto
+    type string
+    value Piccole bugie\
+\
+[Strofa 1]\
+Dicevi "sto bene" con gli occhi nel vuoto\
+dicevo "va bene" con il cuore in tasca\
+ci siamo raccontati un mondo remoto\
+dove ogni cosa sembrava una pasca\
+\
+[Ritornello]\
+Piccole bugie, piccole bugie\
+tessute per non farci troppo male\
+ma a furia di fili e di fantasie\
+il letto era un campo di battaglia\
+\
+[Strofa 2]\
+Ora che il silenzio ha preso il suo posto\
+sento le crepe di ogni parola\
+vorrei dirti la verità, tutto d'un fiato\
+ma sei già lontana, e la porta è chiusa\
+\
+[Ritornello]\
+Piccole bugie, piccole bugie\
+tessute per non farci troppo male\
+ma a furia di fili e di fantasie\
+il letto era un campo di battaglia\
+\
+[Finale]\
+Piccole bugie, grandi addii.\
+
+doc 17
+  field 0
+    name contenuto
+    type string
+    value Luci di provincia\
+\
+[Strofa 1]\
+Nel bar della piazza si spegne l'insegna\
+il cane dorme sotto un lampione\
+la strada è deserta, e a nessuno interessa\
+che io sogni di un'altra stagione\
+\
+[Ritornello]\
+Luci di provincia, luci di provincia\
+brillano piano senza chiedere niente\
+siamo cresciuti tra queste vetrine\
+e ci portiamo il mondo nella mente\
+\
+[Strofa 2]\
+Il sabato sera sul motorino\
+gli amici, le risate, un po' di birra\
+ognuno aveva un suo piccolo destino\
+e uno l'ha trovato lontano da qui, a Parma\
+\
+[Ritornello]\
+Luci di provincia, luci di provincia\
+brillano piano senza chiedere niente\
+siamo cresciuti tra queste vetrine\
+e ci portiamo il mondo nella mente\
+\
+[Finale]\
+Luci di provincia, tornerò a trovarvi.\
+
+doc 18
+  field 0
+    name contenuto
+    type string
+    value Le strade di casa\
+\
+[Strofa 1]\
+Conosco a memoria le strade di casa\
+ogni buca, ogni panchina, ogni crepa\
+il bar dove ho imparato la mia prima frase\
+e il vicolo dove ho baciato la mia stella\
+\
+[Ritornello]\
+Le strade di casa, le strade di casa\
+mi portano sempre dove devo andare\
+anche se il mondo è un posto che invasa\
+queste pietre mi sanno aspettare\
+\
+[Strofa 2]\
+Sono stato lontano, ho visto le luci\
+di mille città che brillano forte\
+ma nessuna ha il profumo di queste foci\
+e di questi muri segnati dalla sorte\
+\
+[Ritornello]\
+Le strade di casa, le strade di casa\
+mi portano sempre dove devo andare\
+anche se il mondo è un posto che invasa\
+queste pietre mi sanno aspettare\
+\
+[Finale]\
+Le strade di casa, sono tornato.\
+
+doc 19
+  field 0
+    name contenuto
+    type string
+    value Notte di vetro\
+\
+[Strofa 1]\
+La città è di vetro e di luci\
+i grattacieli si specchiano in cielo\
+cammino tra gente senza più voci\
+con un cappotto e un vago sconforto\
+\
+[Ritornello]\
+Notte di vetro, notte di vetro\
+ogni riflesso è un volto che passa\
+non so più dire se sono sincero\
+o solo un'ombra nella vetrina bassa\
+\
+[Strofa 2]\
+Un tassista mi chiede dove vado\
+rispondo che non lo so ancora\
+lui sorride e mi dice "sbagliato\
+chi sa di non saperlo ha già la rotta ora" \
+\
+[Ritornello]\
+Notte di vetro, notte di vetro\
+ogni riflesso è un volto che passa\
+non so più dire se sono sincero\
+o solo un'ombra nella vetrina bassa\
+\
+[Finale]\
+Notte di vetro, portami a casa.\
+
+doc 20
+  field 0
+    name contenuto
+    type string
+    value Mare d'inverno\
+\
+[Strofa 1]\
+La spiaggia è vuota, le sdraio impilate\
+il bar ha le tende abbassate\
+cammino da solo sulle orme lasciate\
+da estati che non sono tornate\
+\
+[Ritornello]\
+Mare d'inverno, mare di ferro\
+grigio e sincero come un addio\
+non mi tradisci, non fai il bugiardo\
+sei l'unico amico che mi è rimasto\
+\
+[Strofa 2]\
+Una gabbiana mi fissa e sbadiglia\
+le onde si rompono senza rumore\
+io tiro un sasso, e la mia famiglia\
+è quest'orizzonte che non ha colore\
+\
+[Ritornello]\
+Mare d'inverno, mare di ferro\
+grigio e sincero come un addio\
+non mi tradisci, non fai il bugiardo\
+sei l'unico amico che mi è rimasto\
+\
+[Finale]\
+Mare d'inverno, ascoltami ancora.\
+
+doc 21
+  field 0
+    name contenuto
+    type string
+    value Non c'è fretta\
+\
+[Strofa 1]\
+Non c'è fretta di diventare grandi\
+non c'è fretta di avere ragione\
+lascia che i giorni si facciano blandi\
+e scrivi il tuo nome in un'altra stagione\
+\
+[Ritornello]\
+Non c'è fretta, non c'è fretta\
+il mondo gira anche se ti fermi\
+prendi un respiro, una sigaretta\
+e guarda il tramonto che si fa più nero\
+\
+[Strofa 2]\
+I treni ripassano ogni ora\
+le occasioni tornano a bussare\
+non devi vincere per forza adesso\
+basta saper restare e aspettare\
+\
+[Ritornello]\
+Non c'è fretta, non c'è fretta\
+il mondo gira anche se ti fermi\
+prendi un respiro, una sigaretta\
+e guarda il tramonto che si fa più nero\
+\
+[Finale]\
+Non c'è fretta, davvero.\
+
+doc 22
+  field 0
+    name contenuto
+    type string
+    value Sotto lo stesso cielo\
+\
+[Strofa 1]\
+Tu sei a Milano, io a Palermo\
+e in mezzo cinquecento chilometri\
+ci scriviamo la sera, ci vediamo da fermo\
+in uno schermo che non sa di caldo\
+\
+[Ritornello]\
+Sotto lo stesso cielo, sotto lo stesso cielo\
+la luna è la stessa, la guardiamo insieme\
+anche se i giorni ci rubano il velo\
+la distanza è un'idea che si piega e si preme\
+\
+[Strofa 2]\
+Prenoto un biglietto per il fine settimana\
+valigia leggera e il cuore pesante\
+ti vedo al binario con la tua mano\
+e il resto del mondo è un fruscio distante\
+\
+[Ritornello]\
+Sotto lo stesso cielo, sotto lo stesso cielo\
+la luna è la stessa, la guardiamo insieme\
+anche se i giorni ci rubano il velo\
+la distanza è un'idea che si piega e si preme\
+\
+[Finale]\
+Sotto lo stesso cielo, finalmente.\
+
+doc 23
+  field 0
+    name contenuto
+    type string
+    value Telefonata alle tre\
+\
+[Strofa 1]\
+Il telefono squilla alle tre di notte\
+sul display il tuo nome, e io tremo\
+non so cosa dirti, non so che sorte\
+ci aspetta stanotte, non so più cosa temo\
+\
+[Ritornello]\
+Telefonata alle tre, telefonata alle tre\
+la tua voce roca, i tuoi "scusa se chiamo"\
+ti ascolto in silenzio, ti dico "ci sono"\
+e il buio si fa un poco più piano\
+\
+[Strofa 2]\
+Mi racconti la paura e il rimpianto\
+io tengo la cornetta come un salvagente\
+si fa mattina e non so quanto\
+è passato, ma sento che siamo presenti\
+\
+[Ritornello]\
+Telefonata alle tre, telefonata alle tre\
+la tua voce roca, i tuoi "scusa se chiamo"\
+ti ascolto in silenzio, ti dico "ci sono"\
+e il buio si fa un poco più piano\
+\
+[Finale]\
+Telefonata alle tre, resta in linea.\
+
+doc 24
+  field 0
+    name contenuto
+    type string
+    value Ultimo autobus\
+\
+[Strofa 1]\
+Salgo sull'ultimo autobus di notte\
+il conducente ha gli occhi stanchi\
+siamo in cinque, ognuno nelle sue rotte\
+con i pensieri come sassi nei fianchi\
+\
+[Ritornello]\
+Ultimo autobus, ultimo autobus\
+porta a casa chi ha perso la strada\
+una fermata, un sogno, un abbraccio\
+e il vetro appannato che parla di strada\
+\
+[Strofa 2]\
+Una ragazza dorme con la testa sul vetro\
+un vecchio sfoglia un biglietto spiegato\
+io guardo la città che si fa più lontano\
+e mi sento a mio agio, per ora, in questo stato\
+\
+[Ritornello]\
+Ultimo autobus, ultimo autobus\
+porta a casa chi ha perso la strada\
+una fermata, un sogno, un abbraccio\
+e il vetro appannato che parla di strada\
+\
+[Finale]\
+Ultimo autobus, grazie del passaggio.\
+
+doc 25
+  field 0
+    name contenuto
+    type string
+    value Ricominciare da qui\
+\
+[Strofa 1]\
+Ho chiuso la porta alle mie spalle\
+ho lasciato le chiavi sul davanzale\
+cammino su un marciapiede che brilla\
+con un zaino leggero e un cuore normale\
+\
+[Ritornello]\
+Ricominciare da qui, ricominciare da qui\
+senza rimpianti, senza rancore\
+ogni giorno è un foglio da riempire\
+e io ho una penna e un po' di coraggio\
+\
+[Strofa 2]\
+Non so dove andrò e non so chi sarò\
+ma ho il sole sul viso e un'idea nuova\
+ho imparato che si può cadere e poi\
+rialzarsi senza chiedere nessuna prova\
+\
+[Ritornello]\
+Ricominciare da qui, ricominciare da qui\
+senza rimpianti, senza rancore\
+ogni giorno è un foglio da riempire\
+e io ho una penna e un po' di coraggio\
+\
+[Finale]\
+Ricominciare da qui, e sorridere.\
+
+doc 26
+  field 0
+    name contenuto
+    type string
+    value Radio nella cucina\
+\
+[Strofa 1]\
+La radio nella cucina è sempre accesa\
+sussurra le notizie e una canzone\
+mia madre mescola con aria sospesa\
+il sugo che sa di domenica e di passione\
+\
+[Ritornello]\
+Radio nella cucina, radio nella cucina\
+canti per tutti e non chiedi niente\
+sei la colonna sonora piccina\
+di una famiglia felice e un po' dolente\
+\
+[Strofa 2]\
+Il vapore appanna la finestra\
+mio padre legge il giornale sul tavolo\
+mia sorella ride della sua testa\
+e il tempo è un gatto che dorme sul davanzale\
+\
+[Ritornello]\
+Radio nella cucina, radio nella cucina\
+canti per tutti e non chiedi niente\
+sei la colonna sonora piccina\
+di una famiglia felice e un po' dolente\
+\
+[Finale]\
+Radio nella cucina, non spegnerti mai.\
+
+doc 27
+  field 0
+    name contenuto
+    type string
+    value Vento di marzo\
+\
+[Strofa 1]\
+Vento di marzo scompiglia le idee\
+ti porta il profumo del primo mattino\
+apre le imposte e le vecchie vetrine\
+e spazza via l'inverno dal cammino\
+\
+[Ritornello]\
+Vento di marzo, soffia più forte\
+spalanca le porte che ho chiuso a chiave\
+voglio ricominciare, cambiare le sorti\
+e lasciare che il cuore si faccia più lieve\
+\
+[Strofa 2]\
+Un aquilone si impiglia in un ramo\
+una donna si tiene il cappello\
+io non ho paura, non ho più rimpianto\
+il vento mi porta dove è più bello\
+\
+[Ritornello]\
+Vento di marzo, soffia più forte\
+spalanca le porte che ho chiuso a chiave\
+voglio ricominciare, cambiare le sorti\
+e lasciare che il cuore si faccia più lieve\
+\
+[Finale]\
+Vento di marzo, portami via.\
+
+doc 28
+  field 0
+    name contenuto
+    type string
+    value Via dei Tigli\
+\
+[Strofa 1]\
+Abitavamo in via dei Tigli\
+al numero nove, terzo piano\
+i vicini giocavano a carte\
+e tu cantavi piano piano\
+\
+[Ritornello]\
+Via dei Tigli, via dei Tigli\
+profumo di giugno sui davanzali\
+ogni angolo ha ancora un nostro ricordo\
+e il tempo qui non fa mai male\
+\
+[Strofa 2]\
+Poi il camion dei traslochi\
+e un caffè in piedi sul portone\
+le chiavi consegnate in silenzio\
+e il cuore chiuso in uno scatolone\
+\
+[Ritornello]\
+Via dei Tigli, via dei Tigli\
+profumo di giugno sui davanzali\
+ogni angolo ha ancora un nostro ricordo\
+e il tempo qui non fa mai male\
+\
+[Finale]\
+Via dei Tigli, un giorno ti rivedrò.\
+
+doc 29
+  field 0
+    name contenuto
+    type string
+    value Quando smette di piovere\
+\
+[Strofa 1]\
+Quando smette di piovere\
+il cortile profuma di terra\
+i bambini escono a correre\
+e la tristezza va in guerra\
+\
+[Ritornello]\
+Quando smette di piovere\
+si apre una crepa di cielo\
+e ci passa la luce a fiumi\
+come un cuore che torna sincero\
+\
+[Strofa 2]\
+Anch'io ho aspettato il mio sole\
+dietro a una tenda di nuvole\
+con le mani nelle tasche e il silenzio\
+che pesava come cento anni\
+\
+[Ritornello]\
+Quando smette di piovere\
+si apre una crepa di cielo\
+e ci passa la luce a fiumi\
+come un cuore che torna sincero\
+\
+[Finale]\
+Quando smette di piovere, ricomincio.\
+
+END
+checksum 00000000003753682477

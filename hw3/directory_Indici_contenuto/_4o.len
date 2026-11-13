@@ -1,0 +1,96 @@
+field contenuto
+  type NUMERIC
+  minalue 58
+  maxvalue 63
+  doccount 30
+  maxvaluecount 1
+  origin 58
+  pattern 0
+2
+T
+3
+T
+3
+T
+2
+T
+1
+T
+2
+T
+4
+T
+5
+T
+4
+T
+3
+T
+3
+T
+2
+T
+1
+T
+1
+T
+3
+T
+3
+T
+2
+T
+1
+T
+3
+T
+2
+T
+1
+T
+1
+T
+4
+T
+4
+T
+2
+T
+2
+T
+2
+T
+2
+T
+1
+T
+0
+T
+  skipdata
+    interval
+      minDocID 0
+      maxDocID 7
+      minValue 59
+      maxValue 63
+      docCount 8
+    interval
+      minDocID 8
+      maxDocID 15
+      minValue 59
+      maxValue 62
+      docCount 8
+    interval
+      minDocID 16
+      maxDocID 23
+      minValue 59
+      maxValue 62
+      docCount 8
+    interval
+      minDocID 24
+      maxDocID 29
+      minValue 58
+      maxValue 60
+      docCount 6
+  skipend
+END
+checksum 00000000003871075625
