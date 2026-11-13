@@ -1,0 +1,105 @@
+cfs entry for: _6j.fld
+doc 0
+  field 2
+    name titolo
+    type string
+    value Via dei Tigli testo.txt
+END
+checksum 00000000002371607719
+cfs entry for: _6j.inf
+number of fields 2
+  name id
+  number 1
+  index options DOCS
+  term vectors false
+  payloads false
+  norms false
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+  name titolo
+  number 2
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+checksum 00000000000040500508
+cfs entry for: _6j.len
+field titolo
+  type NUMERIC
+  minalue 4
+  maxvalue 4
+  doccount 1
+  maxvaluecount 1
+  origin 4
+  pattern 0
+0
+T
+  skipdata
+    interval
+      minDocID 0
+      maxDocID 0
+      minValue 4
+      maxValue 4
+      docCount 1
+  skipend
+END
+checksum 00000000000144019193
+cfs entry for: _6j.pst
+field id
+  term C:\\Users\\March\\Desktop\\Ingegneria_dei_dati\\hw3\\.\\canzoni_inventate\\Via dei Tigli testo.txt
+    doc 0
+field titolo
+  term dei
+    doc 0
+      freq 1
+      pos 1
+  term testo.txt
+    doc 0
+      freq 1
+      pos 3
+  term tigli
+    doc 0
+      freq 1
+      pos 2
+  term via
+    doc 0
+      freq 1
+      pos 0
+END
+checksum 00000000002263586542
+table of contents, size: 4
+  filename: _6j.fld
+    start: 23
+    end: 139
+  filename: _6j.inf
+    start: 162
+    end: 998
+  filename: _6j.len
+    start: 1021
+    end: 1285
+  filename: _6j.pst
+    start: 1308
+    end: 1672
+table of contents begins at offset: 0000000000000001672

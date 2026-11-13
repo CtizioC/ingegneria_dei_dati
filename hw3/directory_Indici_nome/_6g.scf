@@ -1,0 +1,105 @@
+cfs entry for: _6g.fld
+doc 0
+  field 2
+    name titolo
+    type string
+    value Telefonata alle tre testo.txt
+END
+checksum 00000000003571355127
+cfs entry for: _6g.inf
+number of fields 2
+  name id
+  number 1
+  index options DOCS
+  term vectors false
+  payloads false
+  norms false
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+  name titolo
+  number 2
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values skip indexNONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  parent false
+checksum 00000000000040500508
+cfs entry for: _6g.len
+field titolo
+  type NUMERIC
+  minalue 4
+  maxvalue 4
+  doccount 1
+  maxvaluecount 1
+  origin 4
+  pattern 0
+0
+T
+  skipdata
+    interval
+      minDocID 0
+      maxDocID 0
+      minValue 4
+      maxValue 4
+      docCount 1
+  skipend
+END
+checksum 00000000000144019193
+cfs entry for: _6g.pst
+field id
+  term C:\\Users\\March\\Desktop\\Ingegneria_dei_dati\\hw3\\.\\canzoni_inventate\\Telefonata alle tre testo.txt
+    doc 0
+field titolo
+  term alle
+    doc 0
+      freq 1
+      pos 1
+  term telefonata
+    doc 0
+      freq 1
+      pos 0
+  term testo.txt
+    doc 0
+      freq 1
+      pos 3
+  term tre
+    doc 0
+      freq 1
+      pos 2
+END
+checksum 00000000002377642743
+table of contents, size: 4
+  filename: _6g.fld
+    start: 23
+    end: 145
+  filename: _6g.inf
+    start: 168
+    end: 1004
+  filename: _6g.len
+    start: 1027
+    end: 1291
+  filename: _6g.pst
+    start: 1314
+    end: 1690
+table of contents begins at offset: 0000000000000001690
